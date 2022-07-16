@@ -11,4 +11,5 @@ ENV REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 
 ENV USE_CCACHE=1
 ENV CCACHE_EXEC=/usr/bin/ccache
+ENV CCACHE_DIR=/root/android/.ccache
 RUN echo 'ccache -M 50G\nccache -o compression=true\n' >> /root/.bashrc
