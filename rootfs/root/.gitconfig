@@ -1,0 +1,5 @@
+[user]
+	name = ChenRenJie
+	email = knownitwhy@gmail.com
+[url "https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"]
+	insteadof = https://android.googlesource.com
